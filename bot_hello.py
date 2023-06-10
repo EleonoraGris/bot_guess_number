@@ -8,8 +8,6 @@ dp = Dispatcher(bot)
 async def hello(message):
     id_chat = message.from_user.id
     await bot.send_message(id_chat, 'Привет!!!')
-    await bot.send_message(id_chat, 'Я бот-повторюшка ^.^')
-    await bot.send_message(id_chat, 'Скажи мне что-нибудь')
 
 
 if __name__ == '__main__':
